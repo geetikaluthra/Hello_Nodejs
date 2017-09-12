@@ -9,6 +9,8 @@
   "author": "Geetika luthra",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "yards": "^0.1.4",
+    "yargs": "^4.7.1"
   }
 }

@@ -4,6 +4,10 @@ const fs=require('fs');
 const os=require('os');
 const notes=require('./notes.js');
 const _=require('lodash');
+const yargs=require('yargs');
+
+var argv=yargs.argv;
+console.log('yargs Command:',argv);
 
 var command=process.argv[2];
 console.log('Command:',command);
